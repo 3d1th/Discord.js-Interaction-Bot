@@ -23,7 +23,7 @@ let TOKEN;
 try {
     TOKEN = fs.readFileSync('token.txt', 'utf-8').trim();
 } catch (error) {
-    console.error("token.txt 파일을 찾을 수 없습니다. 올바른 위치에 token.txt를 배치하고 토큰 값을 입력하세요.");
+    console.error("token.txt 파일을 찾을 수 없습니다. 올바른 위치에 token.txt를 만들고 토큰 값을 입력하세요.");
     console.log("\n\nPress Enter to exit.");
     process.stdin.once("data", () => {
         process.exit();
