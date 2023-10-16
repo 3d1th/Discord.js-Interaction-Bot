@@ -1,0 +1,14 @@
+{
+    "name": "discord-slash-commands-bot",
+    "version": "1.0.0",
+    "description": "A simple Discord bot that handles slash commands.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@discordjs/rest": "^2.0.1",
+        "discord-api-types": "^0.37.60",
+        "discord.js": "^14.0.0"
+    }
+}
